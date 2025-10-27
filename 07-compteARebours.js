@@ -1,3 +1,5 @@
+const { co } = require("co");
+
 /*
   /*
     Énoncé :
@@ -11,9 +13,12 @@
     sans lever d'exception. L'étudiant doit remplacer la fonction par son implémentation.
   */
   function compteARebours() {
+    for (let i = 10; i >= 1; i--) {
+    console.log(i);
+  }
     // Placeholder neutre : ne fait rien
   }
-
+compteARebours();
   // Ne pas modifier la ligne ci-dessous
   module.exports = { compteARebours }
 // Ne pas modifier la ligne ci-dessous

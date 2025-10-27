@@ -12,7 +12,14 @@
 function somme(n) {
   // Exercice non implémenté : retourner la somme de 1 à n
   // Placeholder neutre : retourne 0 pour indiquer non-implémentation
-  return 0;
+  // Vérifie que n est un nombre entier positif
+  if (typeof n !== "number" || n < 1 || !Number.isInteger(n)) {
+    return 0;
+  }
+
+  // Formule mathématique pour la somme des entiers de 1 à n
+  return (n * (n + 1)) / 2;
+  
 }
 
 // Ne pas modifier la ligne ci-dessous

@@ -15,8 +15,13 @@ function multiplication(a, b) {
   if (typeof a !== 'number' || typeof b !== 'number') return undefined;
   if (isNaN(a) || isNaN(b)) return undefined;
 
-  return a * b;
+  return (a * b) === 0 ? 0 : a * b;
+
 }
+// Tests manuels (optionnel)
+     // 0
+console.log("1 argument =", multiplication(2,0));     // undefined
+console.log("mauvais type =", multiplication("2", 3)); // undefined
 
 // Ne pas modifier la ligne ci-dessous
 module.exports = { multiplication }

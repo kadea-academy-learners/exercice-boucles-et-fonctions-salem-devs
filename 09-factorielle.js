@@ -12,8 +12,22 @@
 function factorielle(n) {
   // Exercice non implémenté : calculer la factorielle de n
   // Placeholder neutre : retourne 0 pour indiquer non-implémentation
-  return 0;
+if (typeof n !== "number" || isNaN(n) || n < 0) {
+    return 0;
 }
+if (n===0){
+  return 1;
+}
+
+let reponse =1
+ for(i =1; i<=n; i++){
+  reponse = reponse * i;
+ }
+
+  return reponse;
+}
+
+console.log(factorielle(5)); //120 
 
 // Ne pas modifier la ligne ci-dessous
 module.exports = { factorielle }
