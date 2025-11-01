@@ -6,7 +6,7 @@
   Signature attendue :
     function nombreDeVoyelles(phrase) -> number
 
-  Placeholder : levée d'erreur pour indiquer que l'exercice doit être implémenté.
+  Placeholder : levée d'erreur pour indiquer que l'exercice doit être implémenté
 */
 function nombreDeVoyelles(phrase) {
   // Exercice non implémenté : doit compter les voyelles

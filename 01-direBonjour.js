@@ -8,7 +8,7 @@
 
   Remarque : cette version est un placeholder pour l'exercice. L'étudiant doit remplacer
   la fonction par son implémentation. Le placeholder lève une erreur explicite pour
-  indiquer que le code n'est pas encore implémenté.
+  indiquer que le code n'est pas encore implémenté
 */
 function direBonjour() {
   console.log("Bonjour le monde");

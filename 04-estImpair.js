@@ -8,9 +8,9 @@
   Signature attendue :
     function estImpair(n) -> boolean | null
 
-  Placeholder : levée d'erreur pour indiquer que l'exercice doit être implémenté.
+  Placeholder : levée d'erreur pour indiquer que l'exercice doit être implémenté
 */
-function estImpair(n) {
+/*function estImpair(n) {
   // Vérifie que n est un nombre et pas NaN
   if (typeof n !== "number" || isNaN(n)) {
     return null;
@@ -21,7 +21,14 @@ function estImpair(n) {
   }
   // Retourne true si impair, false si pair
   return n % 2 !== 0;
+}*/
+function estImpair(n) {
+  if (typeof n !== "number" || isNaN(n)) return null; // entrée invalide
+  if (!Number.isInteger(n)) return false;           // nombre décimal → false
+  return n % 2 !== 0;                              // impair → true, pair → false
 }
+
+
 
 console.log(estImpair(3));    
 console.log(estImpair(-3));   

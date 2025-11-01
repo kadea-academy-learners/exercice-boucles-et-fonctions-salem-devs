@@ -7,7 +7,7 @@
   Signature attendue :
     function factorielle(n) -> number
 
-  Placeholder : levée d'erreur pour indiquer que l'exercice doit être implémenté.
+  Placeholder : levée d'erreur pour indiquer que l'exercice doit être implémenté
 */
 function factorielle(n) {
   // Exercice non implémenté : calculer la factorielle de n

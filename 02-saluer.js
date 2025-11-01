@@ -7,7 +7,7 @@
   Signature attendue :
     function saluer(nom) -> void
 
-  Placeholder : levée d'erreur pour indiquer que l'exercice doit être implémenté.
+  Placeholder : levée d'erreur pour indiquer que l'exercice doit être implémenté
 */
 function saluer(nom) {
   if (nom) {

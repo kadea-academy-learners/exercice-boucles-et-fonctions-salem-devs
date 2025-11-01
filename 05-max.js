@@ -4,7 +4,7 @@ function max(a, b) {
     return null;
   }
 
-  // Vérifie si les deux nombres sont égaux
+  // Vérifie si les deux nombres sont egaux
   if (a === b) {
     return "Les deux nombres sont égaux";
   }

@@ -10,7 +10,7 @@ const { co } = require("co");
       function compteARebours() -> void
 
     Placeholder : version neutre (ne log rien) pour permettre l'exécution des tests
-    sans lever d'exception. L'étudiant doit remplacer la fonction par son implémentation.
+    sans lever d'exception. L'étudiant doit remplacer la fonction par son implémentation
   */
   function compteARebours() {
     for (let i = 10; i >= 1; i--) {
