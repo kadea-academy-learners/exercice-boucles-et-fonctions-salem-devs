@@ -20,7 +20,7 @@ function multiplication(a, b) {
 }
 // Tests manuels (optionnel)
      // 0
-console.log("1 argument =", multiplication(2,0));     // undefined
+console.log("1 argument =", multiplication(-2,0));     // undefined
 console.log("mauvais type =", multiplication("2", 3)); // undefined
 
 // Ne pas modifier la ligne ci-dessous
